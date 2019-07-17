@@ -1,0 +1,24 @@
+{
+  "name": "matt-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for wawa melon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fec3-galadriel/matt-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fec3-galadriel/matt-proxy/issues"
+  },
+  "homepage": "https://github.com/fec3-galadriel/matt-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
