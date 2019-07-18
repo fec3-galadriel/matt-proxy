@@ -1,10 +1,19 @@
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: rgb(250,250,250);
 }
 
-.photo-and-summary {
+#photos-and-summary {
   display: flex;
   flex-direction: row;
+  align-self: center;
+}
+
+#itemSummary {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  align-self: flex-start;
+  top: 0%;
 }
