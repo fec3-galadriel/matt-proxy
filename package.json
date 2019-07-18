@@ -4,7 +4,9 @@
   "description": "Proxy server for wawa melon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server",
+    "build": "webpack -d"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,21 @@
   "homepage": "https://github.com/fec3-galadriel/matt-proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "http-proxy": "^1.17.0",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
   }
 }
