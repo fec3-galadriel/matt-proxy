@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background: rgb(250,250,250);
+}
+
+.photo-and-summary {
+  display: flex;
+  flex-direction: row;
+}
