@@ -1,5 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body>Hello World</body>
+  <head>
+    <link rel='stylesheet' type='text/css' href="styles.css" />
+  </head>
+  <body>
+    <!-- div's for each service -->
+    <!-- <div class="photos-and-summary"> -->
+      <div id="photos"></div>
+      <div id="itemSummary"></div>
+    <!-- </div> -->
+    <!-- <div id="related-products"></div> -->
+
+    <!-- importing bundles -->
+    <!-- proxy-side bundling -->
+    <script src="matt_item_summary_bundle.js"></script>
+    <script src="mike_photo_carousel_bundle.js"></script>
+    <script src="garrett_related_products_bundle.js"></script>
+    <script src="runtime_bundle.js"></script>
+
+    <!-- service-side bundling -->
+    <!-- <script src="http://localhost:3001/:id/bundle.js"></script> -->
+    <!-- <script src="http://localhost:3002/:id/bundle.js"></script> -->
+    <!-- <script src="http://localhost:3003/:id/bundle.js"></script> -->
+    <!-- <script src="http://localhost:3004/:id/bundle.js"></script> -->
+
+  </body>
 </html>
