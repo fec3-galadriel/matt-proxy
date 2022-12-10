@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/fec3-galadriel/matt-proxy#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-http-proxy": "^1.5.1",
     "http-proxy": "^1.17.0",
     "jquery": "^3.4.1",
